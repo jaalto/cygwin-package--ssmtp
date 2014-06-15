@@ -1,3 +1,6 @@
 NOTE; disable this patch in "series" due to configure: --enable-ssl
 
 debian-2.64-7.1/01-374327-use-gnutls.patch
+
+Instructions how to compile SSMTP can be found at
+http://www.gilandre.net/cgi-bin/wiki.cgi/SlackwareInstallSSMTP
