@@ -24,15 +24,6 @@ index f0aff41..0f214e4 100644
  
  
  .PHONY: install-sendmail
-@@ -79,7 +79,7 @@ uninstall-sendmail: uninstall
- 
- # Binaries:
- ssmtp: $(OBJS)
--	$(CC) -o ssmtp $(OBJS) @LIBS@ $(CFLAGS)
-+	$(CC) -o ssmtp $(OBJS) -lssl -lcrypto $(CFLAGS)
- 
- .PHONY: clean
- clean:
 -- 
 1.7.9
 
