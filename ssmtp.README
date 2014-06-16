@@ -60,7 +60,7 @@ Port Notes:
 - Except: compile with SSL/TLS support (via openssl, not gnutls)
 - Compile with: --enable-md5auth --enable-ssl
 
------ version 2.64-2 -----
+----- version 2.64-8 -----
 - New maintainer 2014-06-16 Jari Aalto
 
 ----- version 2.61-1 -----
