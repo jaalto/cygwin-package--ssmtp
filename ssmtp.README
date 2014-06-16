@@ -1,0 +1,73 @@
+ssmtp
+------------------------------------------
+
+extremely simple MTA to get mail off the system to a mail hub
+
+A secure, effective and simple way of getting mail off a system to
+your mail hub. It contains no suid-binaries or other dangerous
+things - no mail spool to poke around in, and no daemons running in
+the background. Mail is simply forwarded to the configured mailhost.
+Extremely easy configuration. NOTE: the above is all it does; it does
+not receive mail, expand aliases or manage a queue. That belongs on a
+mail hub with a system administrator.
+
+Build requirements:
+  quilt
+  libopenssl-devel
+
+Canonical homepage:
+  https://packages.debian.org/unstable/ssmtp
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+  Bugs:
+
+License:
+  GPL-2+
+
+Language:
+  Bash, C
+
+------------------------------------------
+
+Build instructions:
+  unpack ssmtp-*-src.tar.bz2
+    if you use setup to install this source package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./ssmtp*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See Cygwin package archive
+
+------------------------------------------
+
+Port Notes:
+- Include Debian patches
+- Except: compile with SSL/TLS support (via openssl, not gnutls)
+- Compile with: --enable-md5auth --enable-ssl
+
+----- version 2.64-2 -----
+- New maintainer 2014-06-16 Jari Aalto
+
+----- version 2.61-1 -----
+- New maintainer 2007-06-12 Charles Wilson
+  https://cygwin.com/ml/cygwin/2007-06/msg00223.html
+
+Licensed under GPL v2 or later
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2014 Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2007-2014 Charles Wilson <cwilson@ece.gatech.edu>

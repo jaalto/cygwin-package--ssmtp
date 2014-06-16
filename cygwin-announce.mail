@@ -1,0 +1,60 @@
+To: cygwin-announce@cygwin.com
+Subject: Updated: ssmtp 2.64-2 -- extremely simple MTA
+--text follows this line--
+
+PACKAGE DESCRIPTION
+===================
+
+Homepage: https://packages.debian.org/unstable/ssmtp
+License : GPL-2+
+
+A secure, effective and simple way of getting mail off a system to
+your mail hub. It contains no suid-binaries or other dangerous
+things - no mail spool to poke around in, and no daemons running in
+the background. Mail is simply forwarded to the configured mailhost.
+Extremely easy configuration. NOTE: the above is all it does; it does
+not receive mail, expand aliases or manage a queue. That belongs on a
+mail hub with a system administrator.
+
+CHANGES SINCE LAST RELEASE
+==========================
+
+New maintainer.
+
+INSTALL OR UPGRADE NOTES
+========================
+
+Standard install.
+
+CYGWIN INSTALLATION INFORMATION
+===============================
+
+To install this package, click on the "Install Cygwin now" link on the
+<http://cygwin.com/> web page. This downloads setup.exe to your
+system. Then, run setup and answer all of the questions. You'll find
+the package listed in the "All" category. After installation, read the
+documentation at directories:
+
+    /usr/share/doc/<package>/*
+    /usr/share/doc/Cygwin/<package-version>.README
+
+If you have questions or comments, please send them to the Cygwin
+mailing list at <cygwin(at)cygwin.com>.
+
+CYGWIN-ANNOUNCE UNSUBSCRIBE INFO
+================================
+
+This message has been sent to cygwin-announce list.
+
+If you want to unsubscribe from the mailing list, look at the
+"List-Unsubscribe: " tag in the email header of this message. Send
+email to the address specified there. It will be in the format:
+
+    cygwin-announce-unsubscribe-you=yourdomain.com(at)cygwin.com
+
+More information on unsubscribing can be found:
+
+    http://sources.redhat.com/lists.html#unsubscribe-simple
+
+Please read *all* of the information on unsubscribing that is available
+starting at the above URL.
